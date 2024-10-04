@@ -1,0 +1,239 @@
+.logo-motto {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.motto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: brown;
+}
+
+.nav-div {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.navigation {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigation a {
+    display: inline;
+    color: brown;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navigation a:hover {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.main-image {
+    position: relative;
+    width: 100%;
+}
+
+.main-image img {
+    width: 100%;
+    height: 400px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 54px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bookings, .transportation, .activities {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.subnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.subnav div {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.bookings-overlay {
+    position: absolute;
+    bottom: 60%;
+    color: antiquewhite;
+    font-size: 34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-decoration: none;
+}
+
+.hostel, .resort, .bb {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bookings-subnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.bookings-subnav div {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.bookings-page-overlay {
+    position: absolute;
+    bottom: 60%;
+    color: sandybrown;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-decoration: none;
+}
+
+.nightly {
+    color: antiquewhite;
+    background-color: sandybrown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hiking-div {
+    position: relative;
+    width: 100%;
+}
+
+.bustour-div {
+    position: relative;
+    width: 100%;
+}
+
+.hiking, .bustour {
+    height: 300px;
+    width: 100%;
+}
+
+.busy {
+    color: antiquewhite;
+    background-color: sandybrown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.plane-div {
+    position: relative;
+    width: 100%;
+}
+
+.cruise-div {
+    position: relative;
+    width: 100%;
+}
+
+.plane, .cruise {
+    height: 300px;
+    width: 100%;
+}
+
+.airsea {
+    color: antiquewhite;
+    background-color: sandybrown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.one-div {
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.two-div {
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.three-div {
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.one, .two, .three {
+    height: 300px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.group-div p {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: sandybrown;
+    text-align: center;
+}
+
+.sites {
+    background-color: black;
+}
+
+.sites p {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+.sites a {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: sandybrown;
+}
